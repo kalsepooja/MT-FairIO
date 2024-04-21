@@ -1,0 +1,18 @@
+.bannerImg  img{
+    width: 100%;
+    height: 250px;
+    filter: brightness(0.7);
+    object-fit: cover;
+};
+
+.bannerImg {
+    position: relative;
+};
+
+.info {
+    position: absolute;
+    top: 8%;
+    left: 30%;
+    text-align: center;
+    color: #fff;
+}

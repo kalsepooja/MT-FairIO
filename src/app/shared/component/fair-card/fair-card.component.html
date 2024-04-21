@@ -1,0 +1,15 @@
+<div class="card mb-4">
+    <div class="card-body fairHeading">
+        <h5 class="text-white">
+            {{getFair.fairName}}
+        </h5>
+        <div class="fairPara p-4 text-black">
+            <p>
+            Event: {{getFair.type}}
+            </p>
+            <p>
+                Date: {{(getFair.startDate * 1000) | date}}
+            </p>
+        </div>
+    </div>
+</div>
